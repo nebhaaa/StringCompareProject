@@ -42,5 +42,27 @@
  
   <build>
     <finalName>StringCompare</finalName>
+    
+    <plugins>
+
+        <!-- Java Compiler Plugin -->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.11.0</version>
+
+            <configuration>
+                <release>21</release>
+            </configuration>
+        </plugin>
+
+        <!-- WAR Plugin -->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.4.0</version>
+        </plugin>
+
+    </plugins>
   </build>
 </project>
