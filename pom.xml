@@ -7,7 +7,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>StringCompare Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  
+
   
    <properties>
         <maven.compiler.release>21</maven.compiler.release>
